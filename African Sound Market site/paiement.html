@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Paiement - African Sound Market</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<script src="js/theme.js"></script>
+
+
+<body>
+
+<header>
+    <div class="logo">African Sound Market</div>
+    <button id="darkModeBtn">🌙</button>
+
+     <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="produits.html">Produits</a></li>
+            <li><a href="apropos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="panier.html">Panier</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+<section class="payment-page">
+    <h1>Paiement</h1>
+
+    <form id="paymentForm">
+        <input type="text" placeholder="Nom complet" required>
+        <input type="text" placeholder="Numéro de carte" required>
+        <input type="text" placeholder="Date d'expiration" required>
+        <input type="text" placeholder="CVV" required>
+
+        <button type="submit">Confirmer le paiement</button>
+    </form>
+
+    <p id="paymentMessage"></p>
+</section>
+
+<script>
+document.getElementById("paymentForm").addEventListener("submit", function(e){
+    e.preventDefault();
+    document.getElementById("paymentMessage").innerText = 
+    "Paiement simulé avec succès ! Merci pour votre commande.";
+});
+</script>
+
+</body>
+</html>
+
+

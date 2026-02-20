@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Produits - African Sound Market</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+
+    <button id="darkModeBtn">🌙</button>
+
+    <div class="header-actions">
+        <div class="cart">
+            🛒 <span id="cartCount">0</span>
+        </div>
+    </div>
+
+    <div class="logo">African Sound Market</div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="produits.html">Produits</a></li>
+            <li><a href="apropos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="panier.html">Panier</a></li> 
+        </ul>
+    </nav>
+
+</header>
+
+<section class="products-page">
+
+    <h1>Nos Instruments & Équipements</h1>
+    <p class="subtitle">Découvrez notre sélection professionnelle</p>
+
+    <div class="filters">
+        <button data-filter="all">Tous</button>
+        <button data-filter="instrument">Instruments</button>
+        <button data-filter="studio">Studio</button>
+        <button data-filter="audio">Audio</button>
+    </div>
+
+    <div class="products-grid">
+
+        <div class="product-card" data-category="instrument">
+            <img src="images/Guitares C40.jpeg" alt="Guitare">
+            <h3>Guitare Acoustique Yamaha C40</h3>
+            <p>Son riche et profond, idéale pour apprendre.</p>
+            <span>120 000 FCFA</span>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="product-card" data-category="instrument">
+            <img src="images/Clavier Yamaha 88 Touches.jpeg" alt="Clavier">
+            <h3>Clavier Yamaha</h3>
+            <p>Clavier professionnel 88 touches.</p>
+            <span>250 000 FCFA</span>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="product-card" data-category="studio">
+            <img src="images/Kit Micro Rode.jpeg" alt="Micro">
+            <h3>Micro Studio Pro</h3>
+            <p>Qualité studio pour voix et instruments.</p>
+            <span>85 000 FCFA</span>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="product-card" data-category="instrument">
+            <img src="images/Batteries yamaha professionnelle.jpeg" alt="Batterie">
+            <h3>Batterie Yamaha</h3>
+            <p>Set complet pour performance live.</p>
+            <span>450 000 FCFA</span>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="product-card" data-category="audio">
+            <img src="images/Casque Studio Pro TECHNIKA.jpeg" alt="Casque">
+            <h3>Casque Studio TECHNICA ATH-M30X</h3>
+            <p>Isolation sonore haute précision.</p>
+            <span>60 000 FCFA</span>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="product-card" data-category="instrument">
+            <img src="images/Ampli Marshall.jpeg" alt="Amplificateur">
+            <h3>Amplificateur Marshall</h3>
+            <p>Puissance et clarté pour scène.</p>
+            <span>180 000 FCFA</span>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 African Sound Market - Tous droits réservés</p>
+</footer>
+
+<!-- Scripts toujours en bas -->
+<script src="js/theme.js"></script>
+<script src="js/produits.js"></script>
+
+</body>
+</html>
